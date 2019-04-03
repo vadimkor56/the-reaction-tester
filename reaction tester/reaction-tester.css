@@ -1,0 +1,101 @@
+#head {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #aadaff;
+  border: 2px solid #006fc4;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#arrow-pic {
+  margin-top: 20px;
+  height: 40px;
+  position: absolute;
+  top: 4.5%;
+  right: 10%;
+}
+
+#header {
+  width: 90%;
+  height: 310px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #89ffed;
+  border: 2px solid #00e2c0;
+  border-radius: 30px;
+
+  display: table;
+  table-layout: fixed;
+}
+
+#header div {
+  display: table-cell;
+
+}
+
+#instruction-section {
+
+  width: 300px;
+  height: 200px;
+}
+
+#time-section {
+  text-align: right;
+
+}
+
+#square-div {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+  border: 1px solid black;
+  top: 250px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#playButton {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #edff89;
+  font-size: 20px;
+  height: 30px;
+  width: auto;
+
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+#stopButton {
+  position: absolute;
+  top: 385px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #edff89;
+  font-size: 20px;
+  height: 30px;
+  width: auto;
+
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+#game-section {
+  text-align: center;
+}
+
+h1 {
+
+}

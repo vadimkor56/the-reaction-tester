@@ -1,0 +1,149 @@
+#head {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #aadaff;
+  border: 2px solid #006fc4;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#header {
+  width: 90%;
+  height:180px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #89ffed;
+  border: 2px solid #00e2c0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  display: table;
+  table-layout: fixed;
+
+}
+
+
+#header div {
+  display: table-cell;
+
+}
+
+#instruction-section {
+
+  width: 300px;
+  height: 220px;
+}
+
+#time-section {
+  text-align: right;
+
+}
+
+#square-div {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+  border: 1px solid black;
+  top: 250px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#game-section h3, #game-section p {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#game-section h3 {
+  top: 185px;
+}
+
+#game-section p {
+  top: 225px;
+}
+
+#playButton {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  width: 92%;
+  height: 70px;
+  margin: 0 auto;
+  border-bottom: 2px solid #00e2c0;
+  border-right: 2px solid #00e2c0;
+  border-left: 2px solid #00e2c0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  background-color: #edff89;
+
+  font-size: 35px;
+
+  font-weight: bold;
+  border: 0.5px solid black;
+}
+
+#arrow-pic {
+  margin-top: 20px;
+  height: 40px;
+  position: absolute;
+  top: 4.5%;
+  left: 10%;
+}
+
+#back-button {
+  position: absolute;
+  top: 158px;
+  left: 90%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #edff89;
+  font-size: 20px;
+  height: 30px;
+  width: auto;
+
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+#game-section {
+  text-align: center;
+}
+
+#game-field {
+  display: none;
+  width: 90%;
+  height:500px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #ffeaea;
+  border-radius: 30px;
+}
+
+
+#shape {
+  display: none;
+  border: 0.5px solid black;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#current-average-time {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
